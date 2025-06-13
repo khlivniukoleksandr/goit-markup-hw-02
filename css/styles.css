@@ -1,0 +1,146 @@
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+  font-style: normal;
+  color: #fff;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: #2e2f42;
+  font-style: normal;
+}
+
+.hide,
+.hero-section-button,
+.hero-section-title {
+  color: #fff;
+}
+
+.title-span {
+  color: #2e2f42;
+}
+
+.webstudio-link,
+.navigation-item,
+.hero-section,
+.team-list-title,
+.portfolio-title,
+.portfolio-list-title {
+  color: #2e2f42;
+}
+
+.description-list-title,
+.team-list-title,
+.portfolio-list-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+
+.adress,
+.description-list-text,
+.team-list-text,
+.portfolio-list-text,
+.footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+
+/* Header */
+.webstudio-link {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  line-height: 1.17;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.navigation-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+
+/* Hero section */
+.hero-section {
+  background-color: #2e2f42;
+}
+
+.hero-section-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.hero-section-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  text-align: center;
+  background-color: #4d5ae5;
+}
+.hero-section-button:hover,
+.hero-section-button:focus {
+  background-color: #404bbf;
+}
+
+/* Description section */
+
+.description-list-text {
+  color: #434455;
+}
+
+/* Team section */
+.section-team {
+  background-color: #f4f4fd;
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+.team-list-title {
+  text-align: center;
+}
+
+.team-list-text {
+  text-align: center;
+  color: #434455;
+}
+
+.portfolio-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.portfolio-list-text {
+  color: #434455;
+}
+
+/* Footer */
+.footer {
+  background-color: #2e2f42;
+}
+.footer-title-span {
+  color: #f4f4fd;
+}
+.footer-text {
+  color: #f4f4fd;
+}
