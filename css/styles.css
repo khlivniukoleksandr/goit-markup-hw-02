@@ -1,6 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
+  color: #434455;
 
   background-color: #ffffff;
 }
@@ -35,14 +36,12 @@ a {
 .webstudio-link,
 .navigation-item,
 .hero-section,
-.team-list-title,
 .portfolio-title,
 .portfolio-list-title {
   color: #2e2f42;
 }
 
 .description-list-title,
-.team-list-title,
 .portfolio-list-title {
   font-weight: 500;
   font-size: 20px;
@@ -129,9 +128,6 @@ a {
 }
 .section-team-list {
   background-color: #ffffff;
-}
-.team-list-title {
-  text-align: center;
 }
 
 .team-list-text {
