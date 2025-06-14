@@ -115,6 +115,9 @@ a {
 
 /* Team section */
 .team-section {
+  background-color: #f4f4fd;
+}
+.team-list-item {
   background-color: #ffffff;
 }
 .team-title {
@@ -126,10 +129,6 @@ a {
   color: #2e2f42;
   text-transform: capitalize;
 }
-.section-team-list {
-  background-color: #ffffff;
-}
-
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
