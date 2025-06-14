@@ -32,7 +32,6 @@ a {
 .title-span {
   color: #2e2f42;
 }
-
 .webstudio-link,
 .navigation-item,
 .hero-section,
@@ -76,7 +75,11 @@ a {
   line-height: 24px;
   letter-spacing: 0.02em;
 }
-
+.navigation-item-link:hover,
+.navigation-item-link:focus,
+.navigation-item-link:active {
+  color: #404bbf;
+}
 /* Hero section */
 .hero-section {
   background-color: #2e2f42;
@@ -112,7 +115,7 @@ a {
 
 /* Team section */
 .team-section {
-  background-color: #f4f4fd;
+  background-color: #ffffff;
 }
 .team-title {
   font-weight: 700;
@@ -130,7 +133,7 @@ a {
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
