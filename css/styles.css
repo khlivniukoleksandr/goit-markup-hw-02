@@ -37,12 +37,11 @@ a {
 .navigation-item,
 .hero-section,
 .portfolio-title,
-.portfolio-list-title {
+.description-list-title {
   color: #2e2f42;
 }
 
-.description-list-title,
-.portfolio-list-title {
+.description-list-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -54,12 +53,10 @@ a {
 }
 .adress,
 .description-list-text,
-.team-list-text,
-.portfolio-list-text,
 .footer-text {
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
@@ -130,21 +127,13 @@ a {
   background-color: #ffffff;
 }
 
-.team-list-text {
-  text-align: center;
-  color: #434455;
-}
-
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11px;
   letter-spacing: 0.02em;
   text-align: center;
-}
-
-.portfolio-list-text {
-  color: #434455;
+  text-transform: capitalize;
 }
 
 /* Footer */
