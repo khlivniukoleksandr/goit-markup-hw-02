@@ -25,7 +25,7 @@ a {
 }
 .info-link:hover,
 .info-link:focus,
-.info-linh:active {
+.info-link:active {
   color: #404bbf;
 }
 
@@ -36,11 +36,13 @@ a {
 .navigation-item,
 .hero-section,
 .portfolio-title,
-.description-list-title {
+.description-list-title,
+.team-list-title {
   color: #2e2f42;
 }
 
-.description-list-title {
+.description-list-title,
+.team-list-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -52,6 +54,7 @@ a {
 }
 .adress,
 .description-list-text,
+.team-list-text,
 .footer-text {
   font-weight: 400;
   font-size: 16px;
@@ -109,7 +112,8 @@ a {
 
 /* Description section */
 
-.description-list-text {
+.description-list-text,
+.team-list-text {
   color: #434455;
 }
 
@@ -129,6 +133,7 @@ a {
   color: #2e2f42;
   text-transform: capitalize;
 }
+
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
